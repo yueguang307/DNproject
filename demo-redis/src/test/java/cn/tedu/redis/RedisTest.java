@@ -19,7 +19,7 @@ public class RedisTest {
 	@Test
 	public void connectOne() {
 		Jedis jedis = new Jedis("192.168.209.101" , 6379);
-		System.out.println("connect is ok  ===>"+jedis.ping());
+		System.out.println("connect is ok  ===>"+jedis.ping()); 
 	}
 	
 	/*
